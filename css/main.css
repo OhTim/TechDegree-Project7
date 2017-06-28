@@ -3,19 +3,24 @@
 body {
   margin: 0;
   background-color: #F7F7F7;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-
-
-p {
-  width: 100%;
-  max-width: 1280px;
-  padding: 1%;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-}
-
-.main {
+.main,
+.context {
   margin: auto;
   max-width: 1280px;
+}
+
+.context {
+  margin-top: 30px;
+  width: 90%;
+  font-size: 24px;
+  line-height: 32px
+}
+
+@media (min-width: 768px) {
+  .main {
+    margin-top: 30px;
+  }
 }
